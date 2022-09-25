@@ -23,7 +23,7 @@ library(ordinal)
 
 Averaging raster values from maxent mods to get average HSI value
 ```{r}
-Bison_HSI = raster("C:/Users/Jonathan Farr/Github/Historic_Bison/Final_Models_July82022//M_0.1_F_lqp_Set_1/Bison_avg.asc")
+Bison_HSI = raster("C:/Users/Jonathan Farr/Github/Historic_Bison/Final_Models_Sept202022//M_0.1_F_lqp_Set_1/Bison_avg.asc")
 crs(Bison_HSI) = "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
 
 ```
@@ -112,8 +112,6 @@ summary(BIBI_Pres_mod)
 performance::r2(BIBI_Pres_mod)
 ```
 
-
-# Archived code
 
 Map of points on top of raster - looks good! 
 ```{r}

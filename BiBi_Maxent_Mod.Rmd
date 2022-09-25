@@ -55,9 +55,9 @@ The next chunk of code is for preparing the arguments to use the function. These
 ```{r, eval=FALSE}
 occ_joint <- "Bison_Projected_Presence.csv"
 occ_tra <- "Bison_Training_June6.csv"
-M_var_dir <- "Env_Vars"
+M_var_dir <- "Env_Vars_Sept202022"
 batch_cal <- "Candidate_models"
-out_dir <- "Candidate_Models_July82022"
+out_dir <- "Candidate_Models_Sept202022"
 reg_mult <-c(seq(0.1, 1, 0.1), seq(2, 6, 1), 8, 10)
 f_clas <- "lqp"
 args <- NULL
@@ -93,7 +93,7 @@ Below, arguments for this functions will be defined. Change them as needed.
 
 ```{r, eval=FALSE}
 occ_test <- "Bison_Testing_June6.csv"
-out_eval <- "Calibration_results_Jul"
+out_eval <- "Calibration_results_Sept2022"
 threshold <- 5
 rand_percent <- 50
 iterations <- 500
@@ -131,7 +131,7 @@ To prepare the arguments for this function use the following chunk of code. Chan
 
 ```{r, eval=FALSE}
 batch_fin <- "Final_models"
-mod_dir <- "Final_Models_July82022"
+mod_dir <- "Final_Models_Sept202022"
 rep_n <- 10
 rep_type <- "Crossvalidate"
 jackknife <- TRUE
